@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda</title>
+</head>
+<body>
+    
+<!-- // <---------------movies------------------->    
+       <div>
+        <h2>Get movies</h2>
+
+        <input class="movies__filter-input" type="text">
+        <button class="movies__filter-button">Search</button>
+        <select class="movies__filter-select">
+            <option value="movie">movie</option>
+            <option value="series">series</option>
+            <option value="episode">episode</option>
+        </select>
+        <ul class="movies"></ul>
+    </div>
+    <button id="getMovies">Get movies</button>
+<!-- ----------------------------------------------------- -->
+    
+    <template class="movies__template">
+        <li class="movies__item">
+            <div class="posts"></div>
+            <h3 class="movies__item-title"></h3>
+            <img class="movies__item-image" src="" alt="">
+        </li>
+    </template>
+
+<!-- // <---------------/movies------------------->
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
